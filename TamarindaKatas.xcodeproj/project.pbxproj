@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9BA57B5191E315900E16555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA57B4191E315900E16555 /* Foundation.framework */; };
+		C9BA57B7191E315900E16555 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA57B6191E315900E16555 /* CoreGraphics.framework */; };
+		C9BA57B9191E315900E16555 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA57B8191E315900E16555 /* UIKit.framework */; };
+		C9BA57BF191E315900E16555 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9BA57BD191E315900E16555 /* InfoPlist.strings */; };
+		C9BA57C1191E315900E16555 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57C0191E315900E16555 /* main.m */; };
+		C9BA57C5191E315900E16555 /* TMRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57C4191E315900E16555 /* TMRAppDelegate.m */; };
+		C9BA57C7191E315900E16555 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BA57C6191E315900E16555 /* Images.xcassets */; };
+		C9BA57CE191E315900E16555 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA57CD191E315900E16555 /* XCTest.framework */; };
+		C9BA57CF191E315900E16555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA57B4191E315900E16555 /* Foundation.framework */; };
+		C9BA57D0191E315900E16555 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA57B8191E315900E16555 /* UIKit.framework */; };
+		C9BA57D8191E315900E16555 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9BA57D6191E315900E16555 /* InfoPlist.strings */; };
+		C9BA57DA191E315A00E16555 /* TamarindaKatasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57D9191E315A00E16555 /* TamarindaKatasTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9BA57D1191E315900E16555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BA57A9191E315900E16555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BA57B0191E315900E16555;
+			remoteInfo = TamarindaKatas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9BA57B1191E315900E16555 /* TamarindaKatas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamarindaKatas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BA57B4191E315900E16555 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9BA57B6191E315900E16555 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9BA57B8191E315900E16555 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9BA57BC191E315900E16555 /* TamarindaKatas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TamarindaKatas-Info.plist"; sourceTree = "<group>"; };
+		C9BA57BE191E315900E16555 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9BA57C0191E315900E16555 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9BA57C2191E315900E16555 /* TamarindaKatas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TamarindaKatas-Prefix.pch"; sourceTree = "<group>"; };
+		C9BA57C3191E315900E16555 /* TMRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRAppDelegate.h; sourceTree = "<group>"; };
+		C9BA57C4191E315900E16555 /* TMRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRAppDelegate.m; sourceTree = "<group>"; };
+		C9BA57C6191E315900E16555 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9BA57CC191E315900E16555 /* TamarindaKatasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamarindaKatasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BA57CD191E315900E16555 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C9BA57D5191E315900E16555 /* TamarindaKatasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TamarindaKatasTests-Info.plist"; sourceTree = "<group>"; };
+		C9BA57D7191E315900E16555 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9BA57D9191E315A00E16555 /* TamarindaKatasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamarindaKatasTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BA57AE191E315900E16555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BA57B7191E315900E16555 /* CoreGraphics.framework in Frameworks */,
+				C9BA57B9191E315900E16555 /* UIKit.framework in Frameworks */,
+				C9BA57B5191E315900E16555 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BA57C9191E315900E16555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BA57CE191E315900E16555 /* XCTest.framework in Frameworks */,
+				C9BA57D0191E315900E16555 /* UIKit.framework in Frameworks */,
+				C9BA57CF191E315900E16555 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9BA57A8191E315900E16555 = {
+			isa = PBXGroup;
+			children = (
+				C9BA57BA191E315900E16555 /* TamarindaKatas */,
+				C9BA57D3191E315900E16555 /* TamarindaKatasTests */,
+				C9BA57B3191E315900E16555 /* Frameworks */,
+				C9BA57B2191E315900E16555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BA57B2191E315900E16555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BA57B1191E315900E16555 /* TamarindaKatas.app */,
+				C9BA57CC191E315900E16555 /* TamarindaKatasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9BA57B3191E315900E16555 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9BA57B4191E315900E16555 /* Foundation.framework */,
+				C9BA57B6191E315900E16555 /* CoreGraphics.framework */,
+				C9BA57B8191E315900E16555 /* UIKit.framework */,
+				C9BA57CD191E315900E16555 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9BA57BA191E315900E16555 /* TamarindaKatas */ = {
+			isa = PBXGroup;
+			children = (
+				C9BA57C3191E315900E16555 /* TMRAppDelegate.h */,
+				C9BA57C4191E315900E16555 /* TMRAppDelegate.m */,
+				C9BA57C6191E315900E16555 /* Images.xcassets */,
+				C9BA57BB191E315900E16555 /* Supporting Files */,
+			);
+			path = TamarindaKatas;
+			sourceTree = "<group>";
+		};
+		C9BA57BB191E315900E16555 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9BA57BC191E315900E16555 /* TamarindaKatas-Info.plist */,
+				C9BA57BD191E315900E16555 /* InfoPlist.strings */,
+				C9BA57C0191E315900E16555 /* main.m */,
+				C9BA57C2191E315900E16555 /* TamarindaKatas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9BA57D3191E315900E16555 /* TamarindaKatasTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BA57D9191E315A00E16555 /* TamarindaKatasTests.m */,
+				C9BA57D4191E315900E16555 /* Supporting Files */,
+			);
+			path = TamarindaKatasTests;
+			sourceTree = "<group>";
+		};
+		C9BA57D4191E315900E16555 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9BA57D5191E315900E16555 /* TamarindaKatasTests-Info.plist */,
+				C9BA57D6191E315900E16555 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BA57B0191E315900E16555 /* TamarindaKatas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BA57DD191E315A00E16555 /* Build configuration list for PBXNativeTarget "TamarindaKatas" */;
+			buildPhases = (
+				C9BA57AD191E315900E16555 /* Sources */,
+				C9BA57AE191E315900E16555 /* Frameworks */,
+				C9BA57AF191E315900E16555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TamarindaKatas;
+			productName = TamarindaKatas;
+			productReference = C9BA57B1191E315900E16555 /* TamarindaKatas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9BA57CB191E315900E16555 /* TamarindaKatasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BA57E0191E315A00E16555 /* Build configuration list for PBXNativeTarget "TamarindaKatasTests" */;
+			buildPhases = (
+				C9BA57C8191E315900E16555 /* Sources */,
+				C9BA57C9191E315900E16555 /* Frameworks */,
+				C9BA57CA191E315900E16555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BA57D2191E315900E16555 /* PBXTargetDependency */,
+			);
+			name = TamarindaKatasTests;
+			productName = TamarindaKatasTests;
+			productReference = C9BA57CC191E315900E16555 /* TamarindaKatasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BA57A9191E315900E16555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TMR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tamara Bernad";
+				TargetAttributes = {
+					C9BA57CB191E315900E16555 = {
+						TestTargetID = C9BA57B0191E315900E16555;
+					};
+				};
+			};
+			buildConfigurationList = C9BA57AC191E315900E16555 /* Build configuration list for PBXProject "TamarindaKatas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9BA57A8191E315900E16555;
+			productRefGroup = C9BA57B2191E315900E16555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BA57B0191E315900E16555 /* TamarindaKatas */,
+				C9BA57CB191E315900E16555 /* TamarindaKatasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9BA57AF191E315900E16555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BA57BF191E315900E16555 /* InfoPlist.strings in Resources */,
+				C9BA57C7191E315900E16555 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BA57CA191E315900E16555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BA57D8191E315900E16555 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BA57AD191E315900E16555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BA57C5191E315900E16555 /* TMRAppDelegate.m in Sources */,
+				C9BA57C1191E315900E16555 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BA57C8191E315900E16555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BA57DA191E315A00E16555 /* TamarindaKatasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9BA57D2191E315900E16555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BA57B0191E315900E16555 /* TamarindaKatas */;
+			targetProxy = C9BA57D1191E315900E16555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9BA57BD191E315900E16555 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BA57BE191E315900E16555 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9BA57D6191E315900E16555 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BA57D7191E315900E16555 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9BA57DB191E315A00E16555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9BA57DC191E315A00E16555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9BA57DE191E315A00E16555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TamarindaKatas/TamarindaKatas-Prefix.pch";
+				INFOPLIST_FILE = "TamarindaKatas/TamarindaKatas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9BA57DF191E315A00E16555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TamarindaKatas/TamarindaKatas-Prefix.pch";
+				INFOPLIST_FILE = "TamarindaKatas/TamarindaKatas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9BA57E1191E315A00E16555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TamarindaKatas.app/TamarindaKatas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TamarindaKatas/TamarindaKatas-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TamarindaKatasTests/TamarindaKatasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C9BA57E2191E315A00E16555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TamarindaKatas.app/TamarindaKatas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TamarindaKatas/TamarindaKatas-Prefix.pch";
+				INFOPLIST_FILE = "TamarindaKatasTests/TamarindaKatasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BA57AC191E315900E16555 /* Build configuration list for PBXProject "TamarindaKatas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BA57DB191E315A00E16555 /* Debug */,
+				C9BA57DC191E315A00E16555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BA57DD191E315A00E16555 /* Build configuration list for PBXNativeTarget "TamarindaKatas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BA57DE191E315A00E16555 /* Debug */,
+				C9BA57DF191E315A00E16555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9BA57E0191E315A00E16555 /* Build configuration list for PBXNativeTarget "TamarindaKatasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BA57E1191E315A00E16555 /* Debug */,
+				C9BA57E2191E315A00E16555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BA57A9191E315900E16555 /* Project object */;
+}
