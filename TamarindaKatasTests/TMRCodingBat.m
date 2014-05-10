@@ -55,4 +55,33 @@
     XCTAssertEqual(NO, [self makeBricksWithSmall:3 Big:2 AndGoal:9]);
     
 }
+
+/*
+ Given 3 int values, a b c, return their sum. However, if one of the values is the same as another of the values, it does not count towards the sum.
+ 
+ loneSum(1, 2, 3) → 6
+ loneSum(3, 2, 3) → 2
+ loneSum(3, 3, 3) → 0
+ */
+- (NSInteger) loneSumWithA:( NSInteger )a AndB:(NSInteger)b AndC:(NSInteger)c{
+    NSInteger sum = 0;
+    sum += (a != b && a != c) ? a : 0;
+    sum += (b != a && b != c) ? b : 0;
+    sum += (c != a && c != b) ? c : 0;
+    return sum;
+}
+- (void)testLoneSum_1_2_3{
+    
+    XCTAssertEqual(6, [self loneSumWithA:1 AndB:2 AndC:3]);
+}
+
+- (void)testLoneSum_3_2_3{
+    
+    XCTAssertEqual(2, [self loneSumWithA:3 AndB:2 AndC:3]);
+}
+
+- (void)testLoneSum_3_3_3{
+    
+    XCTAssertEqual(0, [self loneSumWithA:3 AndB:3 AndC:3]);
+}
 @end
