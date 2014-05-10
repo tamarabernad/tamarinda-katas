@@ -19,6 +19,7 @@
 		C9BA57D0191E315900E16555 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BA57B8191E315900E16555 /* UIKit.framework */; };
 		C9BA57D8191E315900E16555 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9BA57D6191E315900E16555 /* InfoPlist.strings */; };
 		C9BA57DA191E315A00E16555 /* TamarindaKatasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57D9191E315A00E16555 /* TamarindaKatasTests.m */; };
+		C9BA57E4191E32B300E16555 /* TMRCodingBat.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57E3191E32B300E16555 /* TMRCodingBat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		C9BA57D5191E315900E16555 /* TamarindaKatasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TamarindaKatasTests-Info.plist"; sourceTree = "<group>"; };
 		C9BA57D7191E315900E16555 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9BA57D9191E315A00E16555 /* TamarindaKatasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamarindaKatasTests.m; sourceTree = "<group>"; };
+		C9BA57E3191E32B300E16555 /* TMRCodingBat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRCodingBat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			children = (
 				C9BA57D9191E315A00E16555 /* TamarindaKatasTests.m */,
 				C9BA57D4191E315900E16555 /* Supporting Files */,
+				C9BA57E3191E32B300E16555 /* TMRCodingBat.m */,
 			);
 			path = TamarindaKatasTests;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9BA57DA191E315A00E16555 /* TamarindaKatasTests.m in Sources */,
+				C9BA57E4191E32B300E16555 /* TMRCodingBat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +444,7 @@
 				C9BA57DF191E315A00E16555 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9BA57E0191E315A00E16555 /* Build configuration list for PBXNativeTarget "TamarindaKatasTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +453,7 @@
 				C9BA57E2191E315A00E16555 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
