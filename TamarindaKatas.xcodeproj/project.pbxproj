@@ -20,6 +20,7 @@
 		C9BA57D8191E315900E16555 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9BA57D6191E315900E16555 /* InfoPlist.strings */; };
 		C9BA57DA191E315A00E16555 /* TamarindaKatasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57D9191E315A00E16555 /* TamarindaKatasTests.m */; };
 		C9BA57E4191E32B300E16555 /* TMRCodingBat.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57E3191E32B300E16555 /* TMRCodingBat.m */; };
+		C9BA57E6191E48C500E16555 /* TMRCodingBatLogic2.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57E5191E48C500E16555 /* TMRCodingBatLogic2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		C9BA57D7191E315900E16555 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9BA57D9191E315A00E16555 /* TamarindaKatasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamarindaKatasTests.m; sourceTree = "<group>"; };
 		C9BA57E3191E32B300E16555 /* TMRCodingBat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRCodingBat.m; sourceTree = "<group>"; };
+		C9BA57E5191E48C500E16555 /* TMRCodingBatLogic2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRCodingBatLogic2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				C9BA57D9191E315A00E16555 /* TamarindaKatasTests.m */,
 				C9BA57D4191E315900E16555 /* Supporting Files */,
 				C9BA57E3191E32B300E16555 /* TMRCodingBat.m */,
+				C9BA57E5191E48C500E16555 /* TMRCodingBatLogic2.m */,
 			);
 			path = TamarindaKatasTests;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			files = (
 				C9BA57DA191E315A00E16555 /* TamarindaKatasTests.m in Sources */,
 				C9BA57E4191E32B300E16555 /* TMRCodingBat.m in Sources */,
+				C9BA57E6191E48C500E16555 /* TMRCodingBatLogic2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
