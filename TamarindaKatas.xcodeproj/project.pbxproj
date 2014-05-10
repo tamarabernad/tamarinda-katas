@@ -21,6 +21,7 @@
 		C9BA57DA191E315A00E16555 /* TamarindaKatasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57D9191E315A00E16555 /* TamarindaKatasTests.m */; };
 		C9BA57E4191E32B300E16555 /* TMRCodingBat.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57E3191E32B300E16555 /* TMRCodingBat.m */; };
 		C9BA57E6191E48C500E16555 /* TMRCodingBatLogic2.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57E5191E48C500E16555 /* TMRCodingBatLogic2.m */; };
+		C9BA57E8191E495C00E16555 /* TMRCodingBatString_2.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57E7191E495C00E16555 /* TMRCodingBatString_2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		C9BA57D9191E315A00E16555 /* TamarindaKatasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamarindaKatasTests.m; sourceTree = "<group>"; };
 		C9BA57E3191E32B300E16555 /* TMRCodingBat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRCodingBat.m; sourceTree = "<group>"; };
 		C9BA57E5191E48C500E16555 /* TMRCodingBatLogic2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRCodingBatLogic2.m; sourceTree = "<group>"; };
+		C9BA57E7191E495C00E16555 /* TMRCodingBatString_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRCodingBatString_2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				C9BA57D4191E315900E16555 /* Supporting Files */,
 				C9BA57E3191E32B300E16555 /* TMRCodingBat.m */,
 				C9BA57E5191E48C500E16555 /* TMRCodingBatLogic2.m */,
+				C9BA57E7191E495C00E16555 /* TMRCodingBatString_2.m */,
 			);
 			path = TamarindaKatasTests;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				C9BA57DA191E315A00E16555 /* TamarindaKatasTests.m in Sources */,
 				C9BA57E4191E32B300E16555 /* TMRCodingBat.m in Sources */,
 				C9BA57E6191E48C500E16555 /* TMRCodingBatLogic2.m in Sources */,
+				C9BA57E8191E495C00E16555 /* TMRCodingBatString_2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
