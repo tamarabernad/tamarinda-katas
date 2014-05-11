@@ -60,19 +60,21 @@
  Elements of input arrays can be modified.
  */
 
-- (NSInteger)tapeEquilibrium:(NSMutableArray *)A{
+- (NSInteger)tapeEquilibrium:(NSArray *)A{
     int __block totalSum = 0;
-    int __block minValue = 1200;
+    int __block minValue = INT_MAX;
     int __block intermediateSum = 0;
     [A enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         totalSum += [obj intValue];
     }];
     [A enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        int val = [obj intValue];
-        intermediateSum += val;
-        int res = totalSum - intermediateSum*2;//substract one for the total sum, and once to do the calc
-        res = abs(res);
-        minValue = MIN(res, minValue);
+        if (idx != 0) {
+            int val = [obj intValue];
+            intermediateSum += val;
+            int res = totalSum - intermediateSum*2;//substract one for the total sum, and once to do the calc
+            res = abs(res);
+            minValue = MIN(res, minValue);
+        }
         
     }];
     
@@ -80,18 +82,27 @@
 }
 - (void)testtapeEquilibrium
 {
-    NSInteger i = [self findMinimum2:@[@5,@3,@10, @1, @2, @4]];
+    NSInteger i = [self tapeEquilibrium:@[@5,@3,@10, @1, @2, @4]];
     XCTAssertEqual(9, i);
 }
 - (void)testtapeEquilibrium2
 {
-    NSInteger i = [self findMinimum2:@[@5,@3,@10, @1, @2]];
+    NSInteger i = [self tapeEquilibrium:@[@5,@3,@10, @1, @2]];
     XCTAssertEqual(5, i);
 }
 - (void)testtapeEquilibrium3
 {
-    NSInteger i = [self findMinimum2:@[@3,@1,@2, @4, @3]];
+    NSInteger i = [self tapeEquilibrium:@[@3,@1,@2, @4, @3]];
     XCTAssertEqual(1, i);
 }
-
+- (void)testtapeEquilibrium4
+{
+    NSInteger i = [self tapeEquilibrium:@[@(-1000),@1000]];
+    XCTAssertEqual(2000, i);
+}
+- (void)testtapeEquilibrium5
+{
+    NSInteger i = [self tapeEquilibrium:@[@(-1000),@(-1000)]];
+    XCTAssertEqual(0, i);
+}
 @end
