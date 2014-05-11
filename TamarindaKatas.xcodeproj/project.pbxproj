@@ -22,6 +22,8 @@
 		C9BA57E4191E32B300E16555 /* TMRCodingBat.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57E3191E32B300E16555 /* TMRCodingBat.m */; };
 		C9BA57E6191E48C500E16555 /* TMRCodingBatLogic2.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57E5191E48C500E16555 /* TMRCodingBatLogic2.m */; };
 		C9BA57E8191E495C00E16555 /* TMRCodingBatString_2.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57E7191E495C00E16555 /* TMRCodingBatString_2.m */; };
+		C9BA57EA191E831E00E16555 /* TMRCodingBatArray_2.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57E9191E831E00E16555 /* TMRCodingBatArray_2.m */; };
+		C9BA57EC191FA03000E16555 /* TMRCodility.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BA57EB191FA03000E16555 /* TMRCodility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		C9BA57E3191E32B300E16555 /* TMRCodingBat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRCodingBat.m; sourceTree = "<group>"; };
 		C9BA57E5191E48C500E16555 /* TMRCodingBatLogic2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRCodingBatLogic2.m; sourceTree = "<group>"; };
 		C9BA57E7191E495C00E16555 /* TMRCodingBatString_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRCodingBatString_2.m; sourceTree = "<group>"; };
+		C9BA57E9191E831E00E16555 /* TMRCodingBatArray_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRCodingBatArray_2.m; sourceTree = "<group>"; };
+		C9BA57EB191FA03000E16555 /* TMRCodility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRCodility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 				C9BA57E3191E32B300E16555 /* TMRCodingBat.m */,
 				C9BA57E5191E48C500E16555 /* TMRCodingBatLogic2.m */,
 				C9BA57E7191E495C00E16555 /* TMRCodingBatString_2.m */,
+				C9BA57E9191E831E00E16555 /* TMRCodingBatArray_2.m */,
+				C9BA57EB191FA03000E16555 /* TMRCodility.m */,
 			);
 			path = TamarindaKatasTests;
 			sourceTree = "<group>";
@@ -260,8 +266,10 @@
 			files = (
 				C9BA57DA191E315A00E16555 /* TamarindaKatasTests.m in Sources */,
 				C9BA57E4191E32B300E16555 /* TMRCodingBat.m in Sources */,
+				C9BA57EC191FA03000E16555 /* TMRCodility.m in Sources */,
 				C9BA57E6191E48C500E16555 /* TMRCodingBatLogic2.m in Sources */,
 				C9BA57E8191E495C00E16555 /* TMRCodingBatString_2.m in Sources */,
+				C9BA57EA191E831E00E16555 /* TMRCodingBatArray_2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
