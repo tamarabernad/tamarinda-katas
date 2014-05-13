@@ -105,4 +105,110 @@
     NSInteger i = [self tapeEquilibrium:@[@(-1000),@(-1000)]];
     XCTAssertEqual(0, i);
 }
+
+
+/*
+ A non-empty zero-indexed array A consisting of N integers is given.
+ A permutation is a sequence containing each element from 1 to N once, and only once.
+ For example, array A such that:
+ A[0] = 4
+ A[1] = 1
+ A[2] = 3
+ A[3] = 2
+ is a permutation, but array A such that:
+ A[0] = 4
+ A[1] = 1
+ A[2] = 3
+ is not a permutation.
+ The goal is to check whether array A is a permutation.
+ Write a function:
+ int solution(NSMutableArray *A);
+ that, given a zero-indexed array A, returns 1 if array A is a permutation and 0 if it is not.
+ For example, given array A such that:
+ A[0] = 4
+ A[1] = 1
+ A[2] = 3
+ A[3] = 2
+ the function should return 1.
+ Given array A such that:
+ A[0] = 4
+ A[1] = 1
+ A[2] = 3
+ the function should return 0.
+ Assume that:
+ N is an integer within the range [1..100,000];
+ each element of array A is an integer within the range [1..1,000,000,000].
+ Complexity:
+ expected worst-case time complexity is O(N);
+ expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
+ Elements of input arrays can be modified.
+ 
+ */
+
+- (NSInteger) permutationSequence:(NSMutableArray *)A
+{
+    A = [A sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+        if ([obj1 integerValue] > [obj2 integerValue]) {
+            return (NSComparisonResult)NSOrderedDescending;
+        }
+        
+        if ([obj1 integerValue] < [obj2 integerValue]) {
+            return (NSComparisonResult)NSOrderedAscending;
+        }
+        return (NSComparisonResult)NSOrderedSame;
+    }];
+    BOOL __block foundGaps = NO;
+    NSInteger __block prevIndex = 0;
+    [A enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        NSInteger v = [obj integerValue];
+        if( idx != 0){
+            if (v != prevIndex + 1) {
+                foundGaps = YES;
+                stop = &foundGaps;
+            }
+        }
+        prevIndex = v;
+    }];
+    return foundGaps ? 0 : 1;
+    
+}
+- (void)testPermutationSequence1{
+    NSInteger i = [self permutationSequence:@[@4,@1,@3,@2]];
+    XCTAssertEqual(1, i);
+}
+- (void)testPermutationSequence2{
+    NSInteger i = [self permutationSequence:@[@4,@1,@3]];
+    XCTAssertEqual(0, i);
+}
+- (void)testPermutationSequence3{
+    NSInteger i = [self permutationSequence:@[@4,@1,@3,@2,@2]];
+    XCTAssertEqual(0, i);
+}
+- (void)testPermutationSequence4{
+    NSInteger i = [self permutationSequence:@[@4,@1]];
+    XCTAssertEqual(0, i);
+}
+- (void)testPermutationSequence5{
+    NSInteger i = [self permutationSequence:@[@4,@3]];
+    XCTAssertEqual(1, i);
+}
+/*
+- (void)testPermutationSequence6{
+    NSInteger i = [self permutationSequence:@[@(-4),@3]];
+    XCTAssertEqual(0, i);
+}
+- (void)testPermutationSequence7{
+    NSInteger i = [self permutationSequence:@[@(-4),@(-3)]];
+    XCTAssertEqual(1, i);
+}
+ no negative values required
+ */
+- (void)testPermutationSequence8{
+    NSInteger i = [self permutationSequence:@[@4]];
+    XCTAssertEqual(1, i);
+}
+- (void)testPermutationSequence9{
+    NSInteger i = [self permutationSequence:@[@1000000000]];
+    XCTAssertEqual(1, i);
+}
 @end
